@@ -8,7 +8,11 @@ As etapas do projeto foram divididas em diferentes tarefas para análise, corre�
 
 **Estrutura do Repositório**
 Código Base: Contém a implementação do sistema de login.
+
 **Etapa 1:** Identificação de possíveis erros no código e criação inicial do repositório.
+
 **Etapa 2:** Preenchimento do formulário de Teste Estático (arquivo PLANO_DE_TESTE.xlsx).
+
 **Etapa 3:** Análise do fluxo de controle com criação de grafo de fluxo, cálculo da complexidade ciclomática e base de caminhos.
+
 **Etapa 4:** Documentação completa do código utilizando o padrão Javadoc e geração da documentação em HTML.
