@@ -9,15 +9,25 @@ Este documento descreve as atividades realizadas na Etapa 3, incluindo o grafo d
 ## Descrição dos Nodos
 
 Início do método: Inicializa o método principal (verificarUsuario).
+
 Conectar ao banco de dados: Estabelece a conexão com o banco usando o método conectarBD().
+
 Construir query SQL: Monta a instrução SQL.
+
 Executar query: Realiza a execução da query SQL.
+
 Condição: Usuário existe? Verifica se a consulta retornou algum resultado (if(rs.next())).
+
 Caminho verdadeiro: O nome do usuário é retornado.
+
 Caminho falso: Retorna uma falha indicando que o usuário não foi encontrado.
+
 Tratamento de exceção: Executa o bloco catch em caso de erro.
+
 Saída final: Retorna o resultado final do método (true ou false).
-Complexidade Ciclomática
+
+## Complexidade Ciclomática
+
 A complexidade ciclomática foi calculada com base no grafo de fluxo.
 
 ### Fórmula: 
