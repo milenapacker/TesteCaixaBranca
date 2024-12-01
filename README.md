@@ -29,6 +29,7 @@ N (Nodos): 9
 ### Cálculo:
 
 M=10−9+2=3
+
 Resultado:
 A complexidade ciclomática do código é 3.
 
@@ -37,11 +38,13 @@ Com base na complexidade ciclomática, foram identificados 3 caminhos independen
 
 ### Caminho 1:
 1 → 2 → 3 → 4 → 5 → 6 → 9
+
 Fluxo principal onde o usuário é encontrado, e o nome é retornado.
 
 
 ### Caminho 2:
 1 → 2 → 3 → 4 → 5 → 7 → 9
+
 Fluxo onde o usuário não é encontrado, e uma falha é retornada.
 
 
