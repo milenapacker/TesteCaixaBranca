@@ -2,13 +2,11 @@
 
 Este documento descreve as atividades realizadas na Etapa 3, incluindo o grafo de fluxo do código, o cálculo da complexidade ciclomática e os caminhos independentes identificados.
 
-## Grafo de Fluxo
+# Grafo de Fluxo
 
 ![grafo](https://github.com/user-attachments/assets/5c968c5f-ca78-4936-af31-ec10d43e3aba)
 
-
-
-### Descrição dos Nodos
+## Descrição dos Nodos
 
 Início do método: Inicializa o método principal (verificarUsuario).
 Conectar ao banco de dados: Estabelece a conexão com o banco usando o método conectarBD().
@@ -22,27 +20,14 @@ Saída final: Retorna o resultado final do método (true ou false).
 Complexidade Ciclomática
 A complexidade ciclomática foi calculada com base no grafo de fluxo.
 
-Fórmula: 
-𝑀
-=
-𝐸
-−
-𝑁
-+
-2
+### Fórmula: 
 M=E−N+2
+
 E (Arestas): 10
 N (Nodos): 9
-Cálculo:
-𝑀
-=
-10
-−
-9
-+
-2
-=
-3
+
+### Cálculo:
+
 M=10−9+2=3
 Resultado:
 A complexidade ciclomática do código é 3.
