@@ -1,12 +1,15 @@
-Teste de Caixa Branca - Etapa 3
+# Teste de Caixa Branca - Etapa 3
+
 Este documento descreve as atividades realizadas na Etapa 3, incluindo o grafo de fluxo do código, o cálculo da complexidade ciclomática e os caminhos independentes identificados.
 
-Grafo de Fluxo
+## Grafo de Fluxo
+
 ![grafo](https://github.com/user-attachments/assets/5c968c5f-ca78-4936-af31-ec10d43e3aba)
 
 
 
-Descrição dos Nodos
+### Descrição dos Nodos
+
 Início do método: Inicializa o método principal (verificarUsuario).
 Conectar ao banco de dados: Estabelece a conexão com o banco usando o método conectarBD().
 Construir query SQL: Monta a instrução SQL.
@@ -44,18 +47,20 @@ M=10−9+2=3
 Resultado:
 A complexidade ciclomática do código é 3.
 
-Base de Caminhos
+**Base de Caminhos**
 Com base na complexidade ciclomática, foram identificados 3 caminhos independentes no grafo:
 
-Caminho 1:
+### Caminho 1:
 1 → 2 → 3 → 4 → 5 → 6 → 9
-
 Fluxo principal onde o usuário é encontrado, e o nome é retornado.
-Caminho 2:
-1 → 2 → 3 → 4 → 5 → 7 → 9
 
+
+### Caminho 2:
+1 → 2 → 3 → 4 → 5 → 7 → 9
 Fluxo onde o usuário não é encontrado, e uma falha é retornada.
-Caminho 3:
+
+
+### Caminho 3:
 1 → 2 → 8 → 9
 
 Fluxo de exceção, onde ocorre um erro na conexão ou execução.
