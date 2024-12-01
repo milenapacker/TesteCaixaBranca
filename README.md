@@ -2,7 +2,7 @@
 
 Este documento descreve as atividades realizadas na Etapa 3, incluindo o grafo de fluxo do código, o cálculo da complexidade ciclomática e os caminhos independentes identificados.
 
-# Grafo de Fluxo
+## Grafo de Fluxo
 
 ![grafo](https://github.com/user-attachments/assets/5c968c5f-ca78-4936-af31-ec10d43e3aba)
 
