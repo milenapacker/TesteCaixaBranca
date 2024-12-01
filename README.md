@@ -1,7 +1,9 @@
-"# Teste Caixa Branca" 
+## Etapa 4 - Documentação
 
-## Erros Encontrados
+Nesta etapa, foram adicionados comentários no código utilizando o padrão Javadoc para descrever classes, métodos e variáveis. Além disso, foi gerada a documentação em HTML utilizando o comando `javadoc`.
 
-1. **SQL Injection:** O código utiliza concatenação direta de strings na query SQL, tornando-o vulnerável a ataques de injeção de SQL.
-2. **Recursos Não Fechados:** O `ResultSet` e o `Statement` não são fechados corretamente, o que pode causar vazamentos de memória.
-3. **Exposição de Credenciais:** As credenciais do banco de dados (usuário e senha) estão diretamente no código, representando um risco de segurança.
+### Como acessar a documentação gerada:
+1. Navegue até o diretório `docs` no repositório.
+2. Abra o arquivo `index.html` em um navegador.
+
+A documentação detalha o funcionamento da classe `User`, responsável pela conexão com o banco de dados e verificação de usuários.
