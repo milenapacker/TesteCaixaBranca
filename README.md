@@ -13,6 +13,6 @@ Código Base: Contém a implementação do sistema de login.
 
 **Etapa 2:** Preenchimento do formulário de Teste Estático (arquivo PLANO_DE_TESTE.xlsx).
 
-**Etapa 3:** Análise do fluxo de controle com criação de grafo de fluxo, cálculo da complexidade ciclomática e base de caminhos.
+**Etapa 3:** Análise do fluxo de controle com criação de grafo de fluxo (arquivo grafo.png), cálculo da complexidade ciclomática e base de caminhos.
 
 **Etapa 4:** Documentação completa do código utilizando o padrão Javadoc.
